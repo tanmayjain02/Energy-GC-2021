@@ -1,11 +1,15 @@
 # Energy-GC-2021
 Code Explained With 
 
+
 Hash Function ::::
 In This App we Have Used a simple Hashing Function ( creates a irreversible secret key for the the Username , PassWord , Phone Number ,   )
 
 UserData :: 
-It is a structure that would create Username Hash , Password Hash , Phone Number Hash , Designation of The User and The Balance They have , 
+It is a structure that would create Username Hash , Password Hash , Phone Number Hash , Designation of The User and The Balance They have. It also Contains a Leger which stores all the data related to his Transactions Whether Received or Transferred.
+
+The Ledger Of the User is Updated from the main Transaction Ledger which Contains all the information about all the Transactions. 
+
 Contains A Function To Display all The data and an Initialiser.
 
 We have Created a node (double - linked list )
@@ -28,6 +32,5 @@ Created The InterFace For The CLI.
 
 
 Further Planning 
-===> Every User Would Have His Own Ledger Which Would Contain all the Transactions Visible To Him and It is always Re confirmed By Main Ledger Which Is immutable and Hence Only Limited Transactions Would be Visible Only Of His Use
-This Is Inspired By The Hawk Method Of Securing The Data By 3rd Party Trusted Source (Main Ledger needs to be Kept Safe).
+===> This Is Inspired By The Hawk Method Of Securing The Data By 3rd Party Trusted Source (Main Ledger needs to be Kept Safe).
 
